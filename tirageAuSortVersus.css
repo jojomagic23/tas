@@ -1,0 +1,60 @@
+body {
+    background-color: #427F80;
+    font-family: 'Arial', sans-serif;
+}
+
+#essaiAffichage {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#legendTaille {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#legendTaille2 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #427F80;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+
+button:disabled {
+    background-color: #000000;
+    cursor: not-allowed;
+}
+
+#versus {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#countdown {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+#winner {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
